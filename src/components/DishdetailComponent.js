@@ -51,10 +51,10 @@ const Dishdetail = (props)=>{
                </div>
            </div>     
            <div className="row">
-           <div className="col-12 col-md-5">
+           <div className="col-12 col-md-5 m-1">
              <RenderDish dish={props.dish} />
            </div>
-           <div className="col-12 col-md-5 ml-1">
+           <div className="col-12 col-md-5 m-1">
            <Rendercomment comments={props.comments}/>
            </div>
            </div>
